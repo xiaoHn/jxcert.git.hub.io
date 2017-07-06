@@ -1,0 +1,48 @@
+﻿<?php
+
+$config['dbHost']		='localhost';			
+$config['dbUser']		='root';					
+$config['dbPwd']		='ahcert_root';	
+$config['database']		='xss';					
+$config['charset']		='utf8';				
+$config['tbPrefix']		='oc_';					
+$config['dbType']		='mysql';				
+
+
+$config['register']		='normal';				
+$config['mailauth']		=false;				
+
+
+$config['urlroot']		='http://119.29.159.207';		
+$config['urlrewrite']	=true;					
+
+
+$config['filepath']		=ROOT_PATH.'/upload';			
+$config['fileprefix']	=$config['urlroot'].'/upload';	
+
+
+$config['theme']		='default';			
+$config['template']		='default';				
+
+
+$config['show']=array(
+	'sitename'			=>'XSS',		
+	'sitedesc'			=>'XSS',					
+	'keywords'			=>'xss',					
+	'description'		=>'',					
+	'adminmail'			=>'admin@163.com'		
+);
+
+
+$config['point']=array(
+	'award'=>array(
+		'publish'		=>2,
+		'comment'		=>2,
+		'invitereg'		=>10 					
+	)
+);
+
+$config['timezone']		='Asia/Shanghai';		
+$config['expires']		=3600;					
+$config['debug']		=false;					
+?>
