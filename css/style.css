@@ -1,5 +1,5 @@
-/*默认*/
-body 	{background:#2765AF url('../images/body_bg.jpg') repeat-x 0 0; color:#000000; margin:20px 0; padding:0; font-family:"Trebuchet MS", verdana, arial, "Times New Roman", serif; font-size:90%; }
+﻿/*默认*/
+body 	{background:#2765AF url('../img/body_bg.jpg') repeat-x 0 0; color:#000000; margin:20px 0; padding:0; font-family:"Trebuchet MS", verdana, arial, "Times New Roman", serif; font-size:90%; }
 p		{margin:0; padding:0 0 15px 0; }
 a		{color:#000000; text-decoration:underline; }
 a:hover	{color:#225799; text-decoration:none;}
@@ -7,9 +7,9 @@ a:hover	{color:#225799; text-decoration:none;}
 /*结构元素*/
 #container	{margin:0px auto; text-align:center; width:760px; }
 #holder		{width:100%; padding:20px 20px 5px 20px; background:#FFFFFF; text-align:left; }
-#logo		{background:url('../images/logo.gif') no-repeat 180px 0; border-bottom:1px solid #DADADA; padding:5px 30px 20px 0px; }
+#logo		{background:url('../img/logo.gif') no-repeat 180px 0; border-bottom:1px solid #DADADA; padding:5px 30px 20px 0px; }
 #navigation	{padding:10px 0; }
-#header		{background:#DADADA url('../images/header_home.jpg') no-repeat 10px 10px; padding:10px; height:200px; }
+#header		{background:#DADADA url('../img/header_home.jpg') no-repeat 10px 10px; padding:10px; height:200px; }
 #content	{float:left; width:490px; padding:20px 10px 0 0; line-height:160%; }
 #news		{float:right; width:250px; padding:20px 0; line-height:140%; text-align:justify; }
 .newsItem	{padding:20px 20px 5px 20px; background:#FEFFD5; border:1px solid #FFEB70; font-size:90%; margin-bottom:20px; }
